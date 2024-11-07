@@ -1,5 +1,4 @@
 #! /bin/bash
-# I have utilized ChatGPT as a resource for guidance and learning throughout this project. My approach reflects the growing trend of modern developers using AI tools to enhance their coding processes. However, all the final code presented here is my own work, based on own independently thought out  prompts and without copying prompts or code from others other than snippets. I believe this practice aligns with the principles of academic honesty, as it emphasizes learning and using technology responsibly. 
 
 if [[ $1 == "test" ]]
 then
@@ -9,6 +8,7 @@ else
 fi
 
 # Do not change code above this line. Use the PSQL variable above to query your database.
+# I have utilized ChatGPT as a resource for guidance and learning throughout this project. My approach reflects the growing trend of modern developers using AI tools to enhance their coding processes. However, all the final code presented here is my own work, based on own independently thought out  prompts and without copying prompts or code from others other than snippets. I believe this practice aligns with the principles of academic honesty, as it emphasizes learning and using technology responsibly. 
 
 echo "$($PSQL "TRUNCATE TABLE games, teams")"
 
